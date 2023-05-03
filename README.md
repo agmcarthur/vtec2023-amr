@@ -89,7 +89,7 @@ The first two examples list the predicted resistome of the analyzed genome and p
 <a name="rgicommand"></a>
 ## RGI at the Command Line
 
-RGI is a command line tool as well, so we’ll do a demo analysis of 112 clinical multi-drug resistant *E. coli* from Hamilton area hospitals, sequenced on MiSeq and assembled using SPAdes (an older genome assembler). We’ll additionally try RGI’s heat map tool to compare genomes.
+RGI is a command line tool as well, so we’ll do an analysis of the 39 *E. coli* genome assemblies included in the Integrated Assignment. We’ll additionally try RGI’s heat map tool to compare genomes.
 
 Login into your course account’s working directory and make a module6 directory:
 
@@ -102,7 +102,7 @@ cd module6
 Take a peak at the list of E. coli samples:
 
 ```bash
-ls /home/ubuntu/CourseData/IDE_data/module6/ecoli
+ls /home/ubuntu/CourseData/module6/ecoli
 ```
 
 RGI has already been installed using Conda, list all the available software in Conda, activate RGI, and then review the RGI help screen:
@@ -124,7 +124,7 @@ rgi load --card_json ./card.json --local
 ls
 ```
 
-We don’t have time to analyze all 112 samples, so let’s analyze 1 as an example (the course GitHub repo contains an EXCEL version of the resulting [`C0001.txt`](https://github.com/bioinformaticsdotca/IDE_2023/blob/main/module6/rgi_main_results/C0001.xlsx) file). When analyzing FASTA files we use the **main** sub-command, here with default settings “**Perfect and Strict hits only**”, "**Exclude nudge**", and "**High quality/coverage**":
+We don’t have time to analyze all 39 samples, so let’s analyze 1 as an example (the course GitHub repo contains an EXCEL version of the resulting [`C0001.txt`](https://github.com/bioinformaticsdotca/IDE_2023/blob/main/module6/rgi_main_results/C0001.xlsx) file). When analyzing FASTA files we use the **main** sub-command, here with default settings “**Perfect and Strict hits only**”, "**Exclude nudge**", and "**High quality/coverage**":
 
 ```bash
 rgi main -h
@@ -158,7 +158,7 @@ An additional 3 nudged Strict annotations (*Escherichia coli* PtsI with mutation
                 
 </details>
 
-We have pre-compiled results for all 112 samples under “**Perfect and Strict hits only**"", "**Exclude nudge**", and "**High quality/coverage**", so let’s try RGI’s heat map tool ([pre-compiled images](https://github.com/bioinformaticsdotca/IDE_2023/tree/main/module6/rgi_main_results) can be downloaded from the course GitHub repo) (please ignore the FutureWarning):
+We have pre-compiled results for all 39 samples under “**Perfect and Strict hits only**"", "**Exclude nudge**", and "**High quality/coverage**", so let’s try RGI’s heat map tool ([pre-compiled images](https://github.com/bioinformaticsdotca/IDE_2023/tree/main/module6/rgi_main_results) can be downloaded from the course GitHub repo) (please ignore the FutureWarning):
 
 ```bash
 ls /home/ubuntu/CourseData/IDE_data/module6/ecoli_json
