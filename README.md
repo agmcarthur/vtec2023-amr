@@ -138,7 +138,7 @@ column -t -s $'\t' ED010.txt  | less -S
 <details>
   <summary>Discussion Points:</summary>
 
-**EDIT** Default RGI **main** analysis of ED010 lists 17 Perfect annotations and 52 Strict annotations. Yet, 44 annotations are efflux components common in *E. coli* that may or may not lead to clinical levels of AMR. Nonetheless, outside of efflux there are some antibiotic inactivation, target replacement, or target alteration genes known to be high risk (e.g., sul1, TEM-1, CTX-M-15, APH(6)-Id, and gyrA mutations). This is a MDR isolate of *E. coli*.
+**EDIT** Default RGI **main** analysis of ED010 lists 17 Perfect annotations and 52 Strict annotations. Yet, 44 annotations are efflux components common in *E. coli* that may or may not lead to clinical levels of AMR. Nonetheless, outside of efflux there are some antibiotic inactivation, target replacement, or target alteration genes known to be high risk (e.g., sul1, TEM-1, CTX-M-15, APH(6)-Id, and gyrA mutations). This is a MDR isolate of *E. coli*. 
                 
 </details>
 
