@@ -4,6 +4,7 @@
 2. [CARD Website and Antibiotic Resistance Ontology](#cardweb)
 3. [RGI for Genome Analysis](#rgigenome)
 4. [RGI at the Command Line](#rgicommand)
+5. [Microreact files](#microreact)
 
 <a name="download"></a>
 ## Download Files
@@ -178,5 +179,9 @@ The last analysis is the most informative, showing that many of these isolates s
 
 </details>
 
+<a name="microreact"></a>
+## Microreact Files
+
+In the course Integrated Assignment you can use the following annotation file to visualize all of the RGI results in the context of Microreact: [rgi_microreact]().
 
  
