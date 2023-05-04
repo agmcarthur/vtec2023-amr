@@ -99,7 +99,7 @@ mkdir module6
 cd module6
 ```
 
-Take a peak at the list of E. coli samples:
+Take a peak at the list of *E. coli* samples:
 
 ```bash
 ls /home/ubuntu/CourseData/module6/ecoli
@@ -124,56 +124,56 @@ rgi load --card_json ./card.json --local
 ls
 ```
 
-We don’t have time to analyze all 39 samples, so let’s analyze 1 as an example (the course GitHub repo contains an EXCEL version of the resulting [`C0001.txt`](https://github.com/bioinformaticsdotca/IDE_2023/blob/main/module6/rgi_main_results/C0001.xlsx) file). When analyzing FASTA files we use the **main** sub-command, here with default settings “**Perfect and Strict hits only**”, "**Exclude nudge**", and "**High quality/coverage**":
+We don’t have time to analyze all 39 samples, so let’s analyze 1 as an example (the course GitHub repo contains an EXCEL version of the resulting [`ED010.txt`](https://github.com/agmcarthur/vtec2023-amr/tree/main/rgi_main_results/ED010.xlsx) file). When analyzing FASTA files we use the **main** sub-command, here with default settings “**Perfect and Strict hits only**”, "**Exclude nudge**", and "**High quality/coverage**":
 
 ```bash
 rgi main -h
-rgi main -i /home/ubuntu/CourseData/IDE_data/module6/ecoli/C0001_E_coli.contigs.fasta -o C0001 -t contig -a DIAMOND -n 4 --local --clean
+rgi main -i /home/ubuntu/workspace/CourseData/module6/ecoli/ED010.fasta -o ED010 -t contig -a DIAMOND -n 4 --local --clean
 ls
-less C0001.json
-less C0001.txt
-column -t -s $'\t' C0001.txt  | less -S
+less ED010.json
+less ED010.txt
+column -t -s $'\t' ED010.txt  | less -S
 ```
 
 <details>
   <summary>Discussion Points:</summary>
 
-Default RGI **main** analysis of C0001 lists 17 Perfect annotations and 52 Strict annotations. Yet, 44 annotations are efflux components common in *E. coli* that may or may not lead to clinical levels of AMR. Nonetheless, outside of efflux there are some antibiotic inactivation, target replacement, or target alteration genes known to be high risk (e.g., sul1, TEM-1, CTX-M-15, APH(6)-Id, and gyrA mutations). This is a MDR isolate of *E. coli*.
+**EDIT** Default RGI **main** analysis of ED010 lists 17 Perfect annotations and 52 Strict annotations. Yet, 44 annotations are efflux components common in *E. coli* that may or may not lead to clinical levels of AMR. Nonetheless, outside of efflux there are some antibiotic inactivation, target replacement, or target alteration genes known to be high risk (e.g., sul1, TEM-1, CTX-M-15, APH(6)-Id, and gyrA mutations). This is a MDR isolate of *E. coli*.
                 
 </details>
 
-What if these results did not explain our observed phenotype? We might want to explore the RGI Loose hits (the course GitHub repo contains an EXCEL version of the resulting [C0001_IncludeLoose.txt](https://github.com/bioinformaticsdotca/IDE_2023/blob/main/module6/rgi_main_results/C0001_IncludeLoose.xlsx) file), shown here with settings “**Perfect, Strict, and Loose hits**”, "**Include nudge**", and "**High quality/coverage**":
+What if these results did not explain our observed phenotype? We might want to explore the RGI Loose hits (the course GitHub repo contains an EXCEL version of the resulting [ED010_IncludeLoose.txt](https://github.com/agmcarthur/vtec2023-amr/tree/main/rgi_main_results/ED010_IncludeLoose.xlsx) file), shown here with settings “**Perfect, Strict, and Loose hits**”, "**Include nudge**", and "**High quality/coverage**":
 
 ```bash
 rgi main -h
-rgi main -i /home/ubuntu/CourseData/IDE_data/module6/ecoli/C0001_E_coli.contigs.fasta -o C0001_IncludeLoose -t contig -a DIAMOND -n 4 --local --clean --include_nudge --include_loose
+rgi main -i /home/ubuntu/workspace/CourseData/module6/ecoli/ED010.fasta -o ED010_IncludeLoose -t contig -a DIAMOND -n 4 --local --clean --include_nudge --include_loose
 ls
-column -t -s $'\t' C0001_IncludeLoose.txt  | less -S
+column -t -s $'\t' ED010_IncludeLoose.txt  | less -S
 ```
 
 <details>
   <summary>Discussion Points:</summary>
 
-An additional 3 nudged Strict annotations (*Escherichia coli* PtsI with mutation conferring resistance to fosfomycin, EC-5 beta-lactamase, *Escherichia coli* EF-Tu mutants conferring resistance to pulvomycin) and 390 Loose annotations have been added to investigate for leads that could explain the observed phenotype. Note this scenario is unlikely for clinical isolates given CARD's reference data, but is possible for environmental isolates.
+**EDIT** An additional 3 nudged Strict annotations (*Escherichia coli* PtsI with mutation conferring resistance to fosfomycin, EC-5 beta-lactamase, *Escherichia coli* EF-Tu mutants conferring resistance to pulvomycin) and 390 Loose annotations have been added to investigate for leads that could explain the observed phenotype. Note this scenario is unlikely for clinical isolates given CARD's reference data, but is possible for environmental isolates.
                 
 </details>
 
-We have pre-compiled results for all 39 samples under “**Perfect and Strict hits only**"", "**Exclude nudge**", and "**High quality/coverage**", so let’s try RGI’s heat map tool ([pre-compiled images](https://github.com/bioinformaticsdotca/IDE_2023/tree/main/module6/rgi_main_results) can be downloaded from the course GitHub repo) (please ignore the FutureWarning):
+We have pre-compiled results for all 39 samples under “**Perfect and Strict hits only**"", "**Exclude nudge**", and "**High quality/coverage**", so let’s try RGI’s heat map tool ([pre-compiled images](https://github.com/agmcarthur/vtec2023-amr/tree/main/rgi_main_results) can be downloaded from the course GitHub repo) (please ignore the FutureWarning):
 
 ```bash
-ls /home/ubuntu/CourseData/IDE_data/module6/ecoli_json
+ls /home/ubuntu/workspace/CourseData/module6/ecoli_json
 rgi heatmap -h
-rgi heatmap -i /home/ubuntu/CourseData/IDE_data/module6/ecoli_json -o genefamily_samples --category gene_family --cluster samples
-rgi heatmap -i /home/ubuntu/CourseData/IDE_data/module6/ecoli_json -o drugclass_samples --category drug_class --cluster samples
-rgi heatmap -i /home/ubuntu/CourseData/IDE_data/module6/ecoli_json -o cluster_both --cluster both
-rgi heatmap -i /home/ubuntu/CourseData/IDE_data/module6/ecoli_json -o cluster_both_frequency --frequency --cluster both
+rgi heatmap -i /home/ubuntu/workspace/CourseData/module6/ecoli_json -o heatmap
+rgi heatmap -i /home/ubuntu/workspace/CourseData/module6/ecoli_json -o cluster_both --cluster both
+rgi heatmap -i /home/ubuntu/workspace/CourseData/module6/ecoli_json -o cluster_both_frequency --frequency --cluster both
 ls
 ```
+> Yellow represents a perfect hit, teal represents a strict hit, purple represents no hit.
 
 <details>
   <summary>Discussion Points:</summary>
 
-The last analysis is the most informative, showing that many of these isolates share the same complement of efflux variants, yet most isolates are unique in their resistome, with a subset sharing TEM-1, sul1, and other higher risk genes.
+**EXIT** The last analysis is the most informative, showing that many of these isolates share the same complement of efflux variants, yet most isolates are unique in their resistome, with a subset sharing TEM-1, sul1, and other higher risk genes.
 
 </details>
 
