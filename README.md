@@ -77,7 +77,7 @@ In this part of the tutorial, your instructor will walk you through the followin
 
 * Resistome prediction for the multidrug resistant *Acinetobacter baumannii* MDR-TJ, complete genome (NC_017847).
 * Resistome prediction for the plasmid isolated from *Escherichia coli* strain MRSN388634 plasmid (KX276657).
-* Explain the difference in fluoroquinolone resistance MIC between two clinical strains of *Pseudomonas aeruginosa* that appear clonal based on identical MLST ([`Pseudomonas1.fasta`, `Pseudomonas2.fasta`](https://github.com/agmcarthur/vtec2023-amr/tree/main/sequences_for_web_demo) - these files can be found in this GitHub repo). Hint, look at SNPs.
+* Explain the difference in fluoroquinolone resistance MIC between two clinical strains of *Pseudomonas aeruginosa* that appear clonal based on identical MLST ([Pseudomonas1.fasta, Pseudomonas2.fasta](https://github.com/agmcarthur/vtec2023-amr/tree/main/sequences_for_web_demo) - these files can be found in this GitHub repo). Hint, look at SNPs.
 
 <details>
   <summary>Answers:</summary>
