@@ -124,7 +124,7 @@ rgi load --card_json ./card.json --local
 ls
 ```
 
-We don’t have time to analyze all 39 samples, so let’s analyze 1 as an example (the course GitHub repo contains an EXCEL version of the resulting [`ED010.txt`](https://github.com/agmcarthur/vtec2023-amr/tree/main/rgi_main_results/ED010.xlsx) file). When analyzing FASTA files we use the **main** sub-command, here with default settings “**Perfect and Strict hits only**”, "**Exclude nudge**", and "**High quality/coverage**":
+We don’t have time to analyze all 39 samples, so let’s analyze 1 as an example (the course GitHub repo contains an EXCEL version of the resulting [ED010.txt](https://github.com/agmcarthur/vtec2023-amr/tree/main/rgi_main_results/ED010.xlsx) file). When analyzing FASTA files we use the **main** sub-command, here with default settings “**Perfect and Strict hits only**”, "**Exclude nudge**", and "**High quality/coverage**":
 
 ```bash
 rgi main -h
