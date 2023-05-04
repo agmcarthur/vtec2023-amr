@@ -138,7 +138,7 @@ column -t -s $'\t' ED010.txt  | less -S
 <details>
   <summary>Discussion Points:</summary>
 
-**EDIT** Default RGI **main** analysis of ED010 lists 17 Perfect annotations and 52 Strict annotations. Yet, 44 annotations are efflux components common in *E. coli* that may or may not lead to clinical levels of AMR. Nonetheless, outside of efflux there are some antibiotic inactivation, target replacement, or target alteration genes known to be high risk (e.g., sul1, TEM-1, CTX-M-15, APH(6)-Id, and gyrA mutations). This is a MDR isolate of *E. coli*. 
+Default RGI **main** analysis of ED010 lists 12 Perfect annotations and 39 Strict annotations. Yet, 43 annotations are efflux components common in *E. coli* that may or may not lead to clinical levels of AMR. Nonetheless, outside of efflux there are some antibiotic inactivation and target alteration genes, but only EC beta-lactamase is notable. This isolate is primarily resistant to fluoroquinolone, aminocoumarin, macrolide, and tetracycline antibiotics, although the acrD gene can also contribute resistance to aminoglycosides.
                 
 </details>
 
@@ -154,7 +154,7 @@ column -t -s $'\t' ED010_IncludeLoose.txt  | less -S
 <details>
   <summary>Discussion Points:</summary>
 
-**EDIT** An additional 3 nudged Strict annotations (*Escherichia coli* PtsI with mutation conferring resistance to fosfomycin, EC-5 beta-lactamase, *Escherichia coli* EF-Tu mutants conferring resistance to pulvomycin) and 390 Loose annotations have been added to investigate for leads that could explain the observed phenotype. Note this scenario is unlikely for clinical isolates given CARD's reference data, but is possible for environmental isolates.
+An additional 11 nudged Strict annotations (possible partial genes for *Escherichia coli* emrE, EF-Tu mutants conferring resistance to Pulvomycin, and AcrF) and 394 Loose annotations have been added to investigate for leads that could explain the observed phenotype. Note this scenario is unlikely for clinical isolates given CARD's reference data, but is possible for environmental isolates. The multiple putative gene fragments found via the Nudge may suggest genome assembly problems.
                 
 </details>
 
@@ -174,7 +174,7 @@ ls
 <details>
   <summary>Discussion Points:</summary>
 
-**EXIT** The last analysis is the most informative, showing that many of these isolates share the same complement of efflux variants, yet most isolates are unique in their resistome, with a subset sharing TEM-1, sul1, and other higher risk genes.
+The last analysis is the most informative, showing that many of these isolates share the same complement of efflux variants (bottom of heatmap) and several isolates share the same overall resistome. Yet most isolates are unique in their resistome, with a subset sharing TEM-1, sul1, and other higher risk genes. Placing these results in phylogenetic and epidemiological context will be helpful.
 
 </details>
 
