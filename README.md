@@ -158,7 +158,7 @@ column -t -s $'\t' ED010_IncludeLoose.txt  | less -S
                 
 </details>
 
-We have pre-compiled results for all 39 samples under “**Perfect and Strict hits only**"", "**Exclude nudge**", and "**High quality/coverage**", so let’s try RGI’s heat map tool ([pre-compiled images](https://github.com/agmcarthur/vtec2023-amr/tree/main/rgi_main_results) can be downloaded from the course GitHub repo) (please ignore the FutureWarning):
+We have pre-compiled results for all 39 samples under “**Perfect and Strict hits only**"", "**Exclude nudge**", and "**High quality/coverage**", so let’s try RGI’s heat map tool ([pre-compiled images](https://github.com/agmcarthur/vtec2023-amr/tree/main/rgi_main_results) can be downloaded or viewed from the course GitHub repo):
 
 ```bash
 ls /home/ubuntu/workspace/CourseData/module6/ecoli_json
@@ -168,6 +168,7 @@ rgi heatmap -i /home/ubuntu/workspace/CourseData/module6/ecoli_json -o cluster_b
 rgi heatmap -i /home/ubuntu/workspace/CourseData/module6/ecoli_json -o cluster_both_frequency --frequency --cluster both
 ls
 ```
+
 > Yellow represents a perfect hit, teal represents a strict hit, purple represents no hit.
 
 <details>
