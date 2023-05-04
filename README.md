@@ -11,6 +11,8 @@
 
 If you are doing this demo live, you can download all the files we will be viewing here: https://github.com/agmcarthur/vtec2023-amr/tree/main/downloads_for_demo
 
+You can also download the lecture slides here: https://github.com/agmcarthur/vtec2023-amr/tree/main/lecture_slides
+
 <a name="intro"></a>
 ## Introduction
 
