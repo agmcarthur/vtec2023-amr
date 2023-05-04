@@ -169,7 +169,7 @@ rgi heatmap -i /home/ubuntu/workspace/CourseData/module6/ecoli_json -o cluster_b
 ls
 ```
 
-> Yellow represents a perfect hit, teal represents a strict hit, purple represents no hit.
+> Yellow represents a Perfect hit, teal represents a Strict hit, purple represents no hit.
 
 <details>
   <summary>Discussion Points:</summary>
