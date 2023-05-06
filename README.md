@@ -188,4 +188,6 @@ In the course Integrated Assignment you can use the following annotation file to
 
 Do you think there is evidence of lateral gene transfer?
 
+**FYI**, we did not run RGI on the reference genome.
+
  
