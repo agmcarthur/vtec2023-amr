@@ -184,6 +184,8 @@ The last analysis is the most informative, showing that many of these isolates s
 <a name="microreact"></a>
 ## Microreact Files
 
-In the course Integrated Assignment you can use the following annotation file to visualize all of the RGI results in the context of [Microreact](https://microreact.org) visualizations: [rgi_microreact](https://github.com/agmcarthur/vtec2023-amr/tree/main/for_microreact).
+In the course Integrated Assignment you can use the following annotation file to visualize all of the RGI results in the context of [Microreact](https://microreact.org) visualizations: [RGI microreact results plus earlier derived whole genome SNP tree](https://github.com/agmcarthur/vtec2023-amr/tree/main/for_microreact).
+
+Do you think there is evidence of lateral gene transfer?
 
  
