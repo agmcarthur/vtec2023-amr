@@ -1,41 +1,41 @@
-Strain	Disease State	Source	Year of isolation	Geographic Location	aminoglycosides	trimethoprim	fluoroquinolones	macrolides	monobactams	penems	polymyxins	sulfonamides	fosfomycin	cephalosporins	cephamycins	penams
+Strain	Disease State	Source	Year of isolation	Geographic Location	aminoglycoside antibiotic	diaminopyrimidine antibiotic	fluoroquinolone antibiotic	macrolide antibiotic	monobactam	penem	sulfonamide antibiotic	penam	cephalosporin	cephamycin	peptide antibiotic	phosphonic acid antibiotic
+ED010	Unknown	Human	1989	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED017	HUS	Human	1989	Italy	AAC(3)-IIe APH(3'')-Ib APH(6)-Id aadA 	dfrA1 		mphB 	TEM-1 	TEM-1 	sul1 sul2 	PBP3 with mutations TEM-1 	EC-13 PBP3 with mutations TEM-1 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED040	Unknown	Human	1995	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED073	Diarrheal feces	Human	1990	Italy	APH(6)-Id aadA 	dfrA14 			TEM-1 	TEM-1 	sul1 	PBP3 with mutations TEM-1 	EC-13 PBP3 with mutations TEM-1 	PBP3 with mutations 	PmrF bacA eptA 	GlpT with mutations 
+ED075	Diarrheal feces	Human	1990	Italy	APH(3'')-Ib APH(6)-Id 				TEM-1 	TEM-1 		PBP3 with mutations TEM-1 	EC-14 PBP3 with mutations TEM-1 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED082	HUS	Human	1990	Italy	aadA 						sul1 	PBP3 with mutations 	EC-14 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA 	GlpT with mutations 
+ED142	HUS	Human	1992	Italy	aadA 	dfrA1 					sul1 	PBP3 with mutations 	EC-14 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA 	GlpT with mutations 
+ED178	HUS	Human	1994	Italy	aadA 						sul1 	PBP3 with mutations 	EC-13 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA 	GlpT with mutations 
+ED180	HUS	Human	1994	Italy								PBP3 with mutations 	EC-13 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED195	HUS	Human	1994	Italy								PBP3 with mutations 	EC-13 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED287	Healthy	Cattle	1998	Italy								PBP3 with mutations 	EC-13 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED392	Diarrheal feces	Human	1998	Italy								PBP3 with mutations 	EC-13 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED411	HUS	Human	1999	Italy								PBP3 with mutations 	EC-13 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED413	Unknown	Human	1999	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED414	Unknown	Human	1999	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED415	Unknown	Human	1999	Italy	APH(3')-Ia APH(6)-Id 				TEM-1 	TEM-1 	sul2 	PBP3 with mutations TEM-1 	EC-15 PBP3 with mutations TEM-1 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED423	Diarrheal feces	Human	1999	Italy								PBP3 with mutations 	EC-13 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED449	Unknown	Human	2000	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED603	HUS	Human	2004	Italy								PBP3 with mutations 	EC-13 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED604	Unknown	Human	2004	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED608	HUS	Human	2005	Italy	APH(3')-Ia APH(6)-Id 				TEM-1 	TEM-1 	sul2 	PBP3 with mutations TEM-1 	EC-14 PBP3 with mutations TEM-1 	PBP3 with mutations 	PmrF bacA eptA 	GlpT with mutations 
+ED636	Unknown	Human	2006	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED644	Unknown	Human	2006	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED647	Unknown	Human	2006	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED653	Unknown	Human	2007	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED654	HUS	Human	2007	Italy								PBP3 with mutations 	EC-14 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED657	HUS	Human	2007	Italy								PBP3 with mutations 	PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED664	HUS	Human	2007	Italy	aadA 						sul1 	PBP3 with mutations 	EC-13 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA 	GlpT with mutations 
+ED666	Unknown	Human	1997	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED668	Unknown	Human	2008	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED669	HUS	Human	2008	Italy								PBP3 with mutations 	EC-13 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA ugd 	GlpT with mutations 
+ED672	HUS	Human	2008	Italy	APH(6)-Id aadA 	dfrA1 	gyrA with mutations	mphB 	TEM-1 	TEM-1 	sul1 sul2 	PBP3 with mutations TEM-1 	EC-14 PBP3 with mutations TEM-1 	PBP3 with mutations 	PmrF bacA eptA 	GlpT with mutations 
+ED676	HUS	Human	2008	Italy								PBP3 with mutations 	EC-14 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED679	Unknown	Human	2008	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED680	Unknown	Human	2008	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED699	Unknown	Human	2009	Italy								PBP3 with mutations 	EC-15 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED728	Bloody diarrheal feces	Human	2010	Italy								PBP3 with mutations 	EC-13 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED729	Diarrheal feces	Human	2010	Italy	APH(3'')-Ib APH(6)-Id aadA 	dfrA1 		mphB 			sul1 sul2 	PBP3 with mutations 	EC-13 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
+ED766	HUS	Human	2010	Italy								PBP3 with mutations 	EC-13 PBP3 with mutations 	PBP3 with mutations 	PmrF bacA eptA ugd 	GlpT with mutations 
 Reference	HUS	Human	1996	Japan												
-ED766	HUS	Human	2010	Italy							PmrF, bacA, ugd, eptA		GlpT with mutations	EC-13, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED729	Diarrheal feces	Human	2010	Italy	aadA, APH(6)-Id, APH(3'')-Ib	dfrA1		mphB			eptA, bacA, PmrF, ugd	sul1, sul2	GlpT with mutations	EC-13, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED728	Bloody diarrheal feces	Human	2010	Italy							PmrF, eptA, bacA, ugd		GlpT with mutations	EC-13, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED699	Unknown	Human	2009	Italy							eptA, bacA, PmrF, ugd		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED680	Unknown	Human	2008	Italy							PmrF, bacA, ugd, eptA		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED679	Unknown	Human	2008	Italy							PmrF, eptA, bacA, ugd		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED676	HUS	Human	2008	Italy							bacA, eptA, PmrF, ugd		GlpT with mutations	EC-14, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED672	HUS	Human	2008	Italy	aadA, APH(6)-Id	dfrA1	gyrA with mutations	mphB	TEM-1	TEM-1	bacA, PmrF, eptA	sul1, sul2	GlpT with mutations	EC-14, TEM-1, PBP3 with mutations	PBP3 with mutations	TEM-1, PBP3 with mutations
-ED669	HUS	Human	2008	Italy							bacA, PmrF, ugd		GlpT with mutations	EC-13, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED668	Unknown	Human	2008	Italy							PmrF, bacA, eptA, ugd		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED666	Unknown	Human	1997	Italy							PmrF, bacA, eptA, ugd		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED664	HUS	Human	2007	Italy	aadA						bacA, PmrF, eptA	sul1	GlpT with mutations	EC-13, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED657	HUS	Human	2007	Italy							bacA, PmrF, ugd, eptA		GlpT with mutations	PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED654	HUS	Human	2007	Italy							ugd, PmrF, eptA, bacA		GlpT with mutations	EC-14, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED653	Unknown	Human	2007	Italy							PmrF, bacA, eptA, ugd		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED647	Unknown	Human	2006	Italy							eptA, bacA, ugd, PmrF		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED644	Unknown	Human	2006	Italy							PmrF, bacA, eptA, ugd		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED636	Unknown	Human	2006	Italy							eptA, PmrF, bacA, ugd		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED608	HUS	Human	2005	Italy	APH(6)-Id, APH(3')-Ia				TEM-1	TEM-1	bacA, PmrF, eptA	sul2	GlpT with mutations	EC-14, TEM-1, PBP3 with mutations	PBP3 with mutations	TEM-1, PBP3 with mutations
-ED604	Unknown	Human	2004	Italy							bacA, eptA, PmrF, ugd		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED603	HUS	Human	2004	Italy							PmrF, ugd, bacA, eptA		GlpT with mutations	EC-13, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED449	Unknown	Human	2000	Italy							PmrF, eptA, bacA, ugd		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED423	Diarrheal feces	Human	1999	Italy							eptA, bacA, PmrF, ugd		GlpT with mutations	EC-13, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED415	Unknown	Human	1999	Italy	APH(6)-Id, APH(3')-Ia				TEM-1	TEM-1	bacA, eptA, ugd, PmrF	sul2	GlpT with mutations	EC-15, TEM-1, PBP3 with mutations	PBP3 with mutations	TEM-1, PBP3 with mutations
-ED414	Unknown	Human	1999	Italy							bacA, eptA, ugd, PmrF		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED413	Unknown	Human	1999	Italy							bacA, eptA, ugd, PmrF		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED411	HUS	Human	1999	Italy							eptA, PmrF, ugd, bacA		GlpT with mutations	EC-13, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED392	Diarrheal feces	Human	1998	Italy							eptA, bacA, PmrF, ugd		GlpT with mutations	EC-13, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED287	Healthy	Cattle	1998	Italy							PmrF, eptA, ugd, bacA		GlpT with mutations	EC-13, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED195	HUS	Human	1994	Italy							eptA, bacA, PmrF, ugd		GlpT with mutations	EC-13, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED180	HUS	Human	1994	Italy							eptA, bacA, PmrF, ugd		GlpT with mutations	EC-13, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED178	HUS	Human	1994	Italy	aadA						bacA, PmrF, eptA	sul1	GlpT with mutations	EC-13, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED142	HUS	Human	1992	Italy	aadA	dfrA1					bacA, PmrF, eptA	sul1	GlpT with mutations	EC-14, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED082	HUS	Human	1990	Italy	aadA						bacA, PmrF, eptA	sul1	GlpT with mutations	EC-14, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED075	Diarrheal feces	Human	1990	Italy	APH(6)-Id, APH(3'')-Ib				TEM-1	TEM-1	eptA, bacA, PmrF, ugd		GlpT with mutations	EC-14, TEM-1, PBP3 with mutations	PBP3 with mutations	TEM-1, PBP3 with mutations
-ED073	Diarrheal feces	Human	1990	Italy	APH(6)-Id, aadA	dfrA14			TEM-1	TEM-1	bacA, PmrF, eptA	sul1	GlpT with mutations	EC-13, TEM-1, PBP3 with mutations	PBP3 with mutations	TEM-1, PBP3 with mutations
-ED040	Unknown	Human	1995	Italy							PmrF, eptA, ugd, bacA		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
-ED017	HUS	Human	1989	Italy	APH(3'')-Ib, APH(6)-Id, AAC(3)-IIe, aadA	dfrA1		mphB	TEM-1	TEM-1	PmrF, ugd, bacA, eptA	sul2, sul1	GlpT with mutations	EC-13, TEM-1, PBP3 with mutations	PBP3 with mutations	TEM-1, PBP3 with mutations
-ED010	Unknown	Human	1989	Italy							bacA, eptA, ugd, PmrF		GlpT with mutations	EC-15, PBP3 with mutations	PBP3 with mutations	PBP3 with mutations
